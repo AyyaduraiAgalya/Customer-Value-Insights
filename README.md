@@ -84,3 +84,25 @@ MIT License
 
 ### Output
 - Saved the engineered data in `data/processed/engineered_data.csv`.
+
+## Customer Segmentation
+
+### Features Used
+- `Age`
+- `Total_Spend`
+- `Total_Children`
+
+### Clustering Method
+- K-means clustering.
+
+### Optimal Number of Clusters
+- Determined using the elbow method.
+
+### Evaluation
+- Silhouette Score.
+
+### Visualization
+- PCA plot of clustered data.
+
+### Output
+- Saved the segmented data in `data/processed/segmented_data.csv`.
