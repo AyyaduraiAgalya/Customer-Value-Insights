@@ -73,3 +73,14 @@ MIT License
 
 ### Output
 - Saved the cleaned data in `data/processed/cleaned_data.csv`.
+
+## Feature Engineering
+
+### New Features Created
+- **Age**: Calculated as 2024 minus the year of birth.
+- **Total Children**: Sum of `Kidhome` and `Teenhome`.
+- **Total Spend**: Sum of spending on different product categories (`MntWines`, `MntFruits`, `MntMeatProducts`, `MntFishProducts`, `MntSweetProducts`, `MntGoldProds`).
+- **Recency Group**: Categorical feature based on the recency of the last purchase, divided into four groups.
+
+### Output
+- Saved the engineered data in `data/processed/engineered_data.csv`.
