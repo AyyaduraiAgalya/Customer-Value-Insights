@@ -56,3 +56,20 @@ Feel free to fork this repository and submit pull requests. For major changes, p
 
 ## License
 MIT License
+
+## Data Collection and Preprocessing
+
+### Dataset Source
+- **Name**: Customer Personality Analysis
+- **Source**: Kaggle
+- **Link**: [Customer Personality Analysis]https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis/data)
+
+### Initial Data Inspection
+- Loaded the dataset and inspected the first few rows, summary statistics, and data information.
+
+### Data Cleaning
+- Handled missing values if any by forward filling.
+- Removed duplicates if any.
+
+### Output
+- Saved the cleaned data in `data/processed/cleaned_data.csv`.
