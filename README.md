@@ -82,8 +82,26 @@ MIT License
 - **Total Spend**: Sum of spending on different product categories (`MntWines`, `MntFruits`, `MntMeatProducts`, `MntFishProducts`, `MntSweetProducts`, `MntGoldProds`).
 - **Recency Group**: Categorical feature based on the recency of the last purchase, divided into four groups.
 
+### Updated Features
+- `Age`
+- `Total_Spend`
+- `Total_Children`
+- `Income`
+- `Recency`
+- `NumWebPurchases`
+- `NumCatalogPurchases`
+- `NumStorePurchases`
+- `NumWebVisitsMonth`
+- One-hot encoded `Education`
+- One-hot encoded `Marital_Status`
+
+### Preprocessing Steps
+- One-hot encoding of categorical variables (`Education` and `Marital_Status`).
+- Standardization of features using `StandardScaler`.
+- Handling class imbalance using SMOTE.
+
 ### Output
-- Saved the engineered data in `data/processed/engineered_data.csv`.
+- Saved the processed features and target variable in `data/processed/X_resampled.npy` and `data/processed/y_resampled.npy`.
 
 ## Customer Segmentation
 
