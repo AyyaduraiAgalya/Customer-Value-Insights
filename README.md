@@ -106,3 +106,34 @@ MIT License
 
 ### Output
 - Saved the segmented data in `data/processed/segmented_data.csv`.
+
+## Propensity Modeling
+
+### Features Used
+- `Age`
+- `Total_Spend`
+- `Total_Children`
+- `Income`
+- `Recency`
+- `NumWebPurchases`
+- `NumCatalogPurchases`
+- `NumStorePurchases`
+- `NumWebVisitsMonth`
+- One-hot encoded `Education`
+- One-hot encoded `Marital_Status`
+
+### Target Variable
+- `Response` (Indicates customer response to the last campaign)
+
+### Model
+- Logistic Regression with hyperparameter tuning using GridSearchCV.
+
+### Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- AUC-ROC
+
+### Output
+- Saved the trained model in `models/propensity_model_updated.pkl`.
+
