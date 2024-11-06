@@ -167,6 +167,5 @@ __pycache__/
 *.pyc
 .DS_Store
 *.pkl
-data/raw/
-data/processed/
 models/
+*.csv

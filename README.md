@@ -103,7 +103,9 @@ MIT License
 ### Output
 - Saved the processed features and target variable in `data/processed/X_resampled.npy` and `data/processed/y_resampled.npy`.
 
-## Customer Segmentation
+## Customer Segmentation with RFM Analysis
+- **RFM Analysis**: Identified high-value customers using RFM (Recency, Frequency, Monetary) scores.
+- **Purpose**: Highlight high-engagement segments for CX improvements.
 
 ### Features Used
 - `Age`
