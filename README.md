@@ -157,3 +157,15 @@ MIT License
 ### Output
 - Saved the trained model in `models/propensity_model_updated.pkl`.
 
+## Voice of the Customer (VoC) Analysis
+
+### Simulated Customer Feedback
+- **Data**: Created a synthetic dataset of customer feedback with associated ratings.
+- **Purpose**: Provides a realistic VoC dataset for sentiment analysis and CX insights.
+
+### Sentiment Analysis
+- **Sentiment Scoring**: Used TextBlob to classify feedback into positive, neutral, and negative categories.
+- **Key Insights**:
+  - Sentiment distribution across feedback.
+  - Average rating by sentiment group to understand the relationship between satisfaction and feedback sentiment.
+- **Output**: Saved in `../data/processed/feedback-with-sentiment.csv` for further analysis.
