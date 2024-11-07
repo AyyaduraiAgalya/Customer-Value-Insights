@@ -6,9 +6,10 @@ CustomerValueInsights is a comprehensive data science project focused on custome
 ## Project Structure
 - `data/`: Contains raw and processed data files.
 - `notebooks/`: Jupyter notebooks for each step of the project.
-- `scripts/`: Python scripts for data processing, feature engineering, model development, and evaluation.
+- `scripts/`: Python scripts for inserting data to database locally etc.
 - `sql/`: Includes SQL scripts for creating tables and running analytical queries.
 - `models/`: Trained models and feature selectors.
+- `visuals/`: Data visualisation and customer insights analysis
 - `requirements.txt`: List of dependencies.
 - `README.md`: Project documentation.
 
@@ -192,3 +193,6 @@ MIT License
 2. **Execute the `create_tables.sql` script** to set up the tables.
 3. **Insert data** using the Python script or directly in your SQL client.
 4. **Run the `cx_queries.sql` script** to showcase advanced SQL analysis.
+
+## Project Presentation
+For a quick overview of the analysis, insights, and recommendations, please view the [Customer Insights Analysis PDF](presentation/Customer Insights Analysis for Enhanced CX Strategy.pdf)

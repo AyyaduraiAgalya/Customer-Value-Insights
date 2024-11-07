@@ -12,3 +12,4 @@ flask
 mysql-connector-python
 textblob
 sqlalchemy
+python-dotenv
