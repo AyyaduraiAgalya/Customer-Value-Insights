@@ -177,8 +177,13 @@ MIT License
 4. **Spending Behavior Analysis**: Shows the impact of sentiment on customer spending.
 5. **Campaign Response Report**: Evaluates marketing campaign effectiveness across customer segments.
 
-### Getting Started
-- Make sure your MySQL server is running.
+## Setting Up a Local Database Connection
+- To run this project and execute the SQL scripts, you need to set up a local database connection.
+- **MySQL Server** installed and running locally. You can install it using Homebrew on macOS:
+  ```bash
+  brew install mysql
+  brew services start mysql
+  ```
 - In `scripts/insert_data.py` set the mysql server's password as an environment variable called `DB_PASSWORD`
 - Run `scripts/insert_data.py` to populate the tables with data.
 
