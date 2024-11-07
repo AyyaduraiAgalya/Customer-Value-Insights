@@ -7,7 +7,7 @@ CustomerValueInsights is a comprehensive data science project focused on custome
 - `data/`: Contains raw and processed data files.
 - `notebooks/`: Jupyter notebooks for each step of the project.
 - `scripts/`: Python scripts for data processing, feature engineering, model development, and evaluation.
-- `app/`: Source code for the interactive dashboard built with Streamlit/Flask.
+- `sql/`: Includes SQL scripts for creating tables and running analytical queries.
 - `models/`: Trained models and feature selectors.
 - `requirements.txt`: List of dependencies.
 - `README.md`: Project documentation.
@@ -169,3 +169,21 @@ MIT License
   - Sentiment distribution across feedback.
   - Average rating by sentiment group to understand the relationship between satisfaction and feedback sentiment.
 - **Output**: Saved in `../data/processed/feedback-with-sentiment.csv` for further analysis.
+
+## SQL Highlights
+1. **High-Value Customer Identification**: Extracts top customers for targeted engagement strategies.
+2. **Sentiment Analysis by Segment**: Summarizes feedback sentiment for different customer segments.
+3. **Recent Buyers with Negative Feedback**: Identifies customers at risk due to recent negative experiences.
+4. **Spending Behavior Analysis**: Shows the impact of sentiment on customer spending.
+5. **Campaign Response Report**: Evaluates marketing campaign effectiveness across customer segments.
+
+### Getting Started
+- Make sure your MySQL server is running.
+- In `scripts/insert_data.py` set the mysql server's password as an environment variable called `DB_PASSWORD`
+- Run `scripts/insert_data.py` to populate the tables with data.
+
+### How to Run the SQL Scripts
+1. **Connect to your MySQL database** using MySQL Workbench or your preferred SQL client.
+2. **Execute the `create_tables.sql` script** to set up the tables.
+3. **Insert data** using the Python script or directly in your SQL client.
+4. **Run the `cx_queries.sql` script** to showcase advanced SQL analysis.

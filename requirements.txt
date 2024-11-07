@@ -9,3 +9,6 @@ joblib
 shap
 lime
 flask
+mysql-connector-python
+textblob
+sqlalchemy
