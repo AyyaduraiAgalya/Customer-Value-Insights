@@ -1,7 +1,7 @@
 # CustomerValueInsights
 
 ## Overview
-CustomerValueInsights is a comprehensive data science project focused on customer segmentation and propensity modeling. The project leverages machine learning techniques to gain insights into customer behavior and develop predictive models to enhance customer value and optimize business decisions.
+The Customer Value Insights (CVI) project aims to analyze customer data to derive meaningful insights that support customer experience (CX) strategies. By focusing on customer segmentation, sentiment analysis, and spending behavior, this project demonstrates how data-driven insights can inform strategic decisions to enhance customer engagement, satisfaction, and long-term value.
 
 ## Project Structure
 - `data/`: Contains raw and processed data files.
